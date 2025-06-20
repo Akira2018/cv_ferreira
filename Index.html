@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Profissional - Luiz Carlos Ferreira</title>
+  <meta name="description" content="Portfólio profissional com projetos, habilidades e contato">
+  <meta name="author" content="Luiz Carlos Ferreira">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 30px 20px 20px;
+    }
+
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    .social-links {
+      margin-top: 10px;
+    }
+
+    .social-links a {
+      color: white;
+      margin: 0 10px;
+      font-size: 1.4rem;
+      transition: color 0.3s;
+    }
+
+    .social-links a:hover {
+      color: #ffcc00;
+    }
+
+    .download-cv {
+      margin-top: 15px;
+    }
+
+    .download-cv a {
+      background-color: #ffcc00;
+      color: #003366;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    nav {
+      background-color: #005599;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #004488;
+    }
+
+    .container {
+      flex: 1;
+      width: 90%;
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+
+    .section {
+      background: white;
+      padding: 25px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    }
+
+    .section h2 {
+      margin-bottom: 15px;
+      color: #003366;
+    }
+
+    .section ul {
+      padding-left: 20px;
+    }
+
+    .section ul li {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 12px;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      nav a {
+        font-size: 0.95rem;
+        padding: 10px 14px;
+      }
+      .section h2 {
+        font-size: 1.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      nav a {
+        width: 90%;
+        text-align: center;
+      }
+      header h1 {
+        font-size: 1.5rem;
+      }
+      .section h2 {
+        font-size: 1.3rem;
+      }
+      footer {
+        font-size: 0.85rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="foto-perfil.jpg" alt="Foto de Luiz Carlos Ferreira">
+    <h1>Luiz Carlos Ferreira</h1>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/luiz-carlos-ferreira-92608078/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/seuusuario" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="mailto:luizisrael2015@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+    <div class="download-cv">
+      <a href="curriculo-luiz.pdf" download>📄 Baixar Currículo</a>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#formacao">Formação</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#experiencia">Experiência</a>
+    <a href="#aplicativo">Gestão de Igrejas</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <div class="container">
+    <section id="sobre" class="section">
+      <h2>Sobre Mim</h2>
+      <p>Profissional com experiência em tecnologia, administração e compras, buscando novos desafios em empresas que valorizem a proatividade...</p>
+    </section>
+
+    <section id="formacao" class="section">
+      <h2>Formação e Qualificações</h2>
+      <ul>
+        <li>Curso de Tecnologia da Informação – Univesp</li>
+        <li>Curso Superior em Banco de Dados – FATEC – Bauru</li>
+        <li>Graduação em Administração – UNICID</li>
+        <li>Especialização em Gestão Pública – UNESP</li>
+      </ul>
+    </section>
+
+    <section id="habilidades" class="section">
+      <h2>Habilidades e Qualificações</h2>
+      <ul>
+        <li>Desenvolvimento de Software: Python, Django, Access</li>
+        <li>Gestão de Projetos: Planejamento, execução, liderança</li>
+      </ul>
+    </section>
+
+    <section id="experiencia" class="section">
+      <h2>Experiência Profissional</h2>
+      <ul>
+        <li>Mais de 15 anos em coordenação administrativa</li>
+        <li>Desenvolvimento de sistemas personalizados</li>
+      </ul>
+    </section>
+
+    <section id="aplicativo" class="section">
+      <h2>Aplicativo de Gestão de Igrejas</h2>
+      <p>Aplicativo com cadastro de membros, finanças, eventos, agenda do pastor, etc.</p>
+    </section>
+
+    <section id="contato" class="section">
+      <h2>Contato</h2>
+      <p>E-mail: luizisrael2015@gmail.com<br>Telefone: (14) 99103-3911</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Luiz Carlos Ferreira - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
